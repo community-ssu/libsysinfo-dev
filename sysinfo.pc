@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=/usr/bin
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: sysinfo
+Description: sysinfod client library
+Version: 0~20100226.1+0m5
+Requires:
+Requires.private:
+Cflags: -I/usr/include
+Libs: -L/usr/lib -lsysinfo
