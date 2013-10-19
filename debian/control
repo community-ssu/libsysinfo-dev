@@ -1,0 +1,14 @@
+Source: libsysinfo-dev
+Section: libdevel
+Priority: extra
+Maintainer: Pali Rohár <pali.rohar@gmail.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.9.3
+
+Package: libsysinfo-dev
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, libsysinfo0
+Description: system information daemon library (development files)
+ D-BUS service, which provides system information
+ .
+ This is a library to access system information
